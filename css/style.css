@@ -1,0 +1,328 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*Cabecera*/
+
+header{
+    padding: 25px;
+    background-color: #0074C1;
+    border-bottom: 1px solid black;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "img nav sucursales";
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    -webkit-box-shadow: 0px -1px 61px 19px rgba(32,35,52,1);
+-moz-box-shadow: 0px -1px 61px 19px rgba(32,35,52,1);
+box-shadow: 0px -1px 61px 19px rgba(32,35,52,1);
+}
+
+header div img{
+    display: flex;
+    height: 100px;
+    border-radius: 5px;
+    grid-area: img;
+    margin-left: 95px;
+}
+
+header nav{
+    grid-area: nav;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li{
+    margin: 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header .boton-sucursal{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 60px;
+    grid-area: sucursales;
+}
+
+header .boton-sucursal a{
+    text-decoration: none;
+    color: white;
+}
+
+.boton-sucursal a:hover{
+    color: black;
+}
+
+header .boton-sucursal img{
+    width: 25px;
+    margin-left: 25px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+/*Contenido Principal*/
+
+main{
+    display: flex;
+    background-color: #2190CB;
+    border-bottom: 1px solid black;
+    align-items: center;
+}
+
+.niño{
+    text-decoration: none;
+    background-color: rgba(51, 0, 255, 0.499);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    margin-left: 370px;
+    color: white;
+}
+
+.niña{
+    text-decoration: none;
+    background-color: rgba(51, 0, 255, 0.499);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    margin-left: 370px;
+    color: white;
+}
+
+main section div a:hover{
+    color: black;
+}
+
+/*Pie de pagina*/
+
+footer{
+    display: flex;
+    background-color: #0074C1;
+    align-items: center;
+    height: 100px;
+}
+
+footer section div p{
+    margin: 25px 750px 25px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+footer nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px 40px;
+    border: 2px solid rgba(51, 0, 255, 0.499);
+    border-radius: 5px;
+}
+
+footer nav ul{
+    list-style: none;
+}
+
+/*Main Pag Bebes*/
+
+.card{
+    margin: 30px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+/*MEDIA QUERIES DESDE MOBILE S-M PAG PRINCIPAL*/
+
+@media screen and (min-width:320px){
+    .fondo-empresa{
+        height: 85px;
+        padding: 40px;
+    }
+
+    header div img{
+        display: flex;
+        height: 100px;
+        border-radius: 5px;
+        margin-left: 25px;
+    }
+
+    footer section div p{
+        display: none;
+    }
+    .nav-link{
+        display: none;
+    }
+    .menu-hamburguesa{
+        width: 20px;
+    }
+    .boton-sucursal a{
+        display: none;
+    }
+    .contenedor-ubicacion{
+        padding: 20px;
+    }
+    .mapa{
+        width: 275px;
+        height: 200px;
+    }
+    .contenedor-ubicacion p{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    .niño{
+        margin-left: 75px;
+    }
+    footer nav a{
+        text-decoration: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 140px;
+        border: 2px solid rgba(51, 0, 255, 0.499);
+        border-radius: 5px;
+    }
+}
+
+/*MEDIA QUERIES MOBILE L PAG PRINCIPAL*/
+
+@media screen and (min-width:425px){
+    header div img{
+        display: flex;
+        height: 100px;
+        border-radius: 5px;
+        margin-left: 25px;
+    }
+    .fondo-empresa{
+        height: 95px;
+        padding: 70px;
+    }
+    .boton-sucursal a{
+        display: none;
+    }
+    footer section div p{
+        display: none;
+    }
+    .nav-link{
+        display: none;
+    }
+    .niño{
+        margin-left: 115px;
+    }
+    .contenedor-ubicacion{
+        padding: 40px;
+        margin-left: 25px;
+    }
+    .contenedor-ubicacion p{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    footer nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 180px;
+    border: 2px solid rgba(51, 0, 255, 0.499);
+    border-radius: 5px;
+    }
+}
+
+/*MEDIA QUERIES TABLET PAG PRINCIPAL*/
+
+@media screen and (min-width:768px){
+    header div img{
+        display: flex;
+        height: 100px;
+        border-radius: 5px;
+        margin-left: 25px;
+    }
+    .fondo-empresa{
+        height: 150px;
+        padding: 175px;
+    }
+    .nav-link{
+        display: block;
+    }
+    .sucursal{
+        display: block;
+    }
+    .contenedor-ubicacion{
+        padding: 50px;
+        margin-left: 190px;
+    }
+    .contenedor-ubicacion p{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    footer section div p{
+        display: block;
+        margin: 155px 100px 170px 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        width: 300px;
+    }
+    .niño{
+        margin-left: 215px;
+    }
+}
+
+/*MEDIA QUERIES LAPTOP PAG PRINCIPAL*/
+
+@media screen and (min-width:1024px){
+    .fondo-empresa{
+        height: 250px;
+        padding: 250px;
+    }
+
+    header div img{
+        display: flex;
+        height: 100px;
+        border-radius: 5px;
+        margin-left: 85px;
+        grid-area: img;
+    }
+    .contenedor-ubicacion{
+        padding: 50px;
+        margin-left: 280px;
+    }
+    .mapa{
+        width: 375px;
+        height: 300px;
+    }
+    .contenedor-ubicacion p{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    footer section div p{
+        display: block;
+        margin: 155px 400px 170px 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        width: 300px;
+    }
+    .niño{
+        margin-left: 400px;
+    }
+    .nav-link{
+        display: block;
+    }
+    .sucursal{
+        display: block;
+    }
+}
