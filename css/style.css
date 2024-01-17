@@ -94,15 +94,6 @@ main{
     color: white;
 }
 
-.niña{
-    text-decoration: none;
-    background-color: rgba(51, 0, 255, 0.499);
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 5px;
-    margin-left: 370px;
-    color: white;
-}
-
 main section div a:hover{
     color: black;
 }
