@@ -4,39 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dumbo\Jugueteria</title>
+    <!--LINK BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!--LINK CSS-->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <div>
-            <img class="logo" src="assets/logo.jpg" alt="Logo de la Empresa">
-            <h1>Dumbo Juguetria</h1>
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="html/JuegosyJuguetes.html" class="nav-link" target="_blank">Juegos y Juguetes</a>
-                </li>
-                <li>
-                    <a href="html/Bebes.html" class="nav-link" target="_blank">Bebes</a>
-                </li>
-                <li>
-                    <a href="html/Ofertas.html" class="nav-link" target="_blank">Ofertas</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="boton-sucursal">
-            <a class="sucursal" href="#">Sucursales</a>
-            <img class="menu-hamburguesa" src="assets/menu-hamburguesa.png" alt="menu hamburguesa">
-        </div>
+            <nav class="navbar navbar-expand-lg bg-dumbo">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img class="logo" src="assets/logo.jpg" alt="logo"></a>
+                  <h1>Dumbo Jugueteria</h1>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link m-4" href="#">Juegos y Juguetes</a>
+                      </li>
+                      <li class="nav-item m-4">
+                        <a class="nav-link" href="#">Bebes</a>
+                      </li>
+                      <li class="nav-item m-4">
+                        <a class="nav-link" href="#">Ofertas</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
     </header>
     <main>
         <section>
-            <div>
-                <img class="fondo-empresa" src="assets/png-clipart-dumbo-logo-cartoons-dumbo.png" alt="fondo empresa">
-                <a class="niño" href="html/Niños.html">Niños</a>
-                <a class="niño" href="html/Niñas.html">Niñas</a>
+            <div id="carouselExample" class="carousel slide m-carrusel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/carrusel-1.PNG" class="d-block w-100" alt="carrusel-1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/carrusel-3.PNG" class="d-block w-100" alt="carrusel-3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div>
+                <ul class="nav nav-pills">
+                    <li class="nav-niño">
+                        <a class="nav-link active" aria-current="page" href="#">Niños</a>
+                    </li>
+                    <li class="nav-niña">
+                        <a class="nav-link active" aria-current="page" href="#">Niñas</a>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
@@ -56,6 +83,8 @@
             </ul>
         </nav>
     </footer>
-    
+
+    <!--LINK SCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
