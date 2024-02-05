@@ -1,0 +1,15 @@
+main{
+    display: flex;
+    background-color: #2190CB;
+    border-bottom: 1px solid black;
+    align-items: center;
+    section{
+        div{
+            .carousel-inner{
+                margin: 10px;
+                padding: 80px;
+            }
+        }
+    }
+}
+

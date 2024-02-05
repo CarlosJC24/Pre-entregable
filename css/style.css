@@ -1,1 +1,96 @@
-/*# sourceMappingURL=style.css.map */
+@charset "UTF-8";
+@keyframes cambiodecolor {
+  0% {
+    color: black;
+  }
+  50% {
+    color: gray;
+  }
+  100% {
+    color: white;
+  }
+}
+header {
+  background-color: #0074C1;
+}
+header div nav div a .logo {
+  box-shadow: 0px -1px 61px 19px rgb(32, 35, 52);
+  display: flex;
+  height: 100px;
+  border-radius: 5px;
+  margin-left: 45px;
+}
+header div nav div .header-titulo {
+  margin-left: 30px;
+  animation-name: cambiodecolor;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 10s;
+  animation-delay: 1s;
+}
+
+main {
+  display: flex;
+  background-color: #2190CB;
+  border-bottom: 1px solid black;
+  align-items: center;
+}
+main section div .carousel-inner {
+  margin: 10px;
+  padding: 80px;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0074C1;
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer .footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .footer-content p span {
+  color: #FCD200;
+}
+footer .footer-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+footer .footer-links a:hover {
+  text-decoration: underline;
+  color: black;
+}
+footer .footer-wpp .icono-wpp {
+  position: fixed;
+  right: 15px;
+  bottom: 5px;
+  transition: 1s;
+}
+footer .footer-wpp .icono-wpp:hover {
+  transform: rotate(360deg);
+}
+
+footer .footer-content .parrafo-1 {
+  color: black;
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+main section div ul .niño, main section div ul .niña {
+  margin-left: 350px;
+  margin-bottom: 200px;
+}/*# sourceMappingURL=style.css.map */

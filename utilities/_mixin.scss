@@ -1,0 +1,8 @@
+//PARRAFO FOOTER
+
+@mixin fuente-parrafo($color, $width, $align, $margen-bottom){
+    color: $color;
+    max-width: $width;
+    text-align: $align;
+    margin-bottom: $margen-bottom;
+}

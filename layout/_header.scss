@@ -1,0 +1,44 @@
+@keyframes cambiodecolor{
+    0%{
+        color: black;
+    }
+
+    50%{
+        color: gray;
+    }
+
+    100%{
+        color: white;
+    }
+}
+
+
+header{
+        background-color: #0074C1;
+    div{
+        nav{
+            div{
+                a{
+                    .logo{
+                        -webkit-box-shadow: 0px -1px 61px 19px rgba(32,35,52,1);
+                        -moz-box-shadow: 0px -1px 61px 19px rgba(32,35,52,1);
+                        box-shadow: 0px -1px 61px 19px rgba(32,35,52,1);
+                        display: flex;
+                        height: 100px;
+                        border-radius: 5px;
+                        margin-left: 45px;
+                    }
+                }
+                .header-titulo{
+                    margin-left: 30px;
+
+                    animation-name: cambiodecolor;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: ease-in;
+                    animation-duration: 10s;
+                    animation-delay: 1s;
+                }
+            }
+        }
+    }
+}

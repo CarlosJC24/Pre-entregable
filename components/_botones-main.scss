@@ -1,0 +1,15 @@
+main{
+    section{
+        div{
+            ul{
+                .niño{
+                    margin-left: 350px;
+                    margin-bottom: 200px;
+                   }
+                .niña{
+                    @extend .niño;
+                   }
+                }
+            }
+        }
+    }
