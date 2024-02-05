@@ -1,0 +1,51 @@
+@media (min-width:320px){
+    main{
+        section{
+            div{
+                ul{
+                    .niño{
+                        margin-left: 80px !important;
+                        margin-bottom: 300px !important;
+                       }
+                    .niña{
+                        margin-left: 80px !important;
+                        margin-bottom: 300px !important;
+                       }
+                    }
+                }
+            }
+        }
+    
+    footer{
+            .footer-content {
+                    max-width: 250px !important;
+                    p{
+                        span{
+                            color: $color;
+                        }
+                    }
+                  }
+                  .footer-links{
+                    a {
+                        color: white;
+                        text-decoration: none;
+                        margin: 100px;
+                        &:hover{
+                                text-decoration: underline;
+                                color: black;
+                        }
+                    }
+                  }
+                  .footer-wpp{
+                    .icono-wpp{
+                        position: fixed;
+                        right: 55px;
+                        bottom: 5px;
+                        transition: 1s;
+                        &:hover{
+                            transform: rotate(360deg);
+                        }
+                    }
+                  }
+        }
+}

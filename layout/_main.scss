@@ -1,12 +1,20 @@
 main{
+    justify-content: center;
     display: flex;
     background-color: #2190CB;
     border-bottom: 1px solid black;
     align-items: center;
     section{
+        .contenedor-ubicacion{
+            margin: 135px;
+            
+        }
+        .card{
+            padding: 85px;
+        }
         div{
             .carousel-inner{
-                margin: 10px;
+                margin: 40px;
                 padding: 80px;
             }
         }

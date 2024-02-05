@@ -30,13 +30,20 @@ header div nav div .header-titulo {
 }
 
 main {
+  justify-content: center;
   display: flex;
   background-color: #2190CB;
   border-bottom: 1px solid black;
   align-items: center;
 }
+main section .contenedor-ubicacion {
+  margin: 135px;
+}
+main section .card {
+  padding: 85px;
+}
 main section div .carousel-inner {
-  margin: 10px;
+  margin: 40px;
   padding: 80px;
 }
 
@@ -62,7 +69,7 @@ footer .footer-content p span {
 footer .footer-links a {
   color: white;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 10px;
 }
 footer .footer-links a:hover {
   text-decoration: underline;
@@ -85,12 +92,245 @@ footer .footer-content .parrafo-1 {
   margin-bottom: 10px;
 }
 
+@media (min-width: 320px) {
+  header div nav div a .logo {
+    box-shadow: 0px -1px 61px 19px rgb(32, 35, 52);
+    display: flex;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 120px;
+  }
+  header div nav div .header-titulo {
+    margin-left: 120px;
+    animation-name: cambiodecolor;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+    animation-delay: 1s;
+  }
+}
+main section div ul .niño, main section div ul .niña {
+  margin-left: 60px !important;
+  margin-bottom: 300px !important;
+}
+footer .footer-content {
+  max-width: 200px !important;
+}
+footer .footer-content p span {
+  color: #FCD200;
+}
+footer .footer-links a {
+  color: white;
+  text-decoration: none;
+  margin: 100px;
+}
+footer .footer-links a:hover {
+  text-decoration: underline;
+  color: black;
+}
+footer .footer-wpp .icono-wpp {
+  position: fixed;
+  right: 55px;
+  bottom: 5px;
+  transition: 1s;
+}
+footer .footer-wpp .icono-wpp:hover {
+  transform: rotate(360deg);
+}
+
+@media (min-width: 320px) {
+  main section div ul .niño, main section div ul .niña {
+    margin-left: 80px !important;
+    margin-bottom: 300px !important;
+  }
+  main section div ul .niña {
+    margin-left: 80px !important;
+    margin-bottom: 300px !important;
+  }
+  footer .footer-content {
+    max-width: 250px !important;
+  }
+  footer .footer-content p span {
+    color: #FCD200;
+  }
+  footer .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 100px;
+  }
+  footer .footer-links a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+  footer .footer-wpp .icono-wpp {
+    position: fixed;
+    right: 55px;
+    bottom: 5px;
+    transition: 1s;
+  }
+  footer .footer-wpp .icono-wpp:hover {
+    transform: rotate(360deg);
+  }
+}
+@media (min-width: 425px) {
+  header div nav div a .logo {
+    box-shadow: 0px -1px 61px 19px rgb(32, 35, 52);
+    display: flex;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 160px;
+  }
+  header div nav div .header-titulo {
+    margin-left: 70px;
+    animation-name: cambiodecolor;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+    animation-delay: 1s;
+  }
+}
+main section div ul .niño, main section div ul .niña {
+  margin-left: 60px !important;
+  margin-bottom: 100px !important;
+}
+main section div ul .niña {
+  margin-left: 50px !important;
+  margin-bottom: 100px !important;
+}
+
+footer .footer-content {
+  max-width: 100px !important;
+}
+footer .footer-content p span {
+  color: #FCD200;
+}
+footer .footer-links a {
+  color: white;
+  text-decoration: none;
+  margin: 100px;
+}
+footer .footer-links a:hover {
+  text-decoration: underline;
+  color: black;
+}
+footer .footer-wpp .icono-wpp {
+  position: fixed;
+  right: 55px;
+  bottom: 5px;
+  transition: 1s;
+}
+footer .footer-wpp .icono-wpp:hover {
+  transform: rotate(360deg);
+}
+
+@media (min-width: 768px) {
+  header div nav div a .logo {
+    box-shadow: 0px -1px 61px 19px rgb(32, 35, 52);
+    display: flex;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  header div nav div .header-titulo {
+    margin-left: 20px;
+    animation-name: cambiodecolor;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+    animation-delay: 1s;
+  }
+}
+main section div ul .niño, main section div ul .niña {
+  margin-left: 210px !important;
+  margin-bottom: 300px !important;
+}
+main section div ul .niña {
+  margin-left: 210px !important;
+  margin-bottom: 300px !important;
+}
+
+footer .footer-content {
+  max-width: 450px !important;
+}
+footer .footer-content p span {
+  color: #FCD200;
+}
+footer .footer-links a {
+  color: white;
+  text-decoration: none;
+  margin: 100px;
+}
+footer .footer-links a:hover {
+  text-decoration: underline;
+  color: black;
+}
+footer .footer-wpp .icono-wpp {
+  position: fixed;
+  right: 55px;
+  bottom: 5px;
+  transition: 1s;
+}
+footer .footer-wpp .icono-wpp:hover {
+  transform: rotate(360deg);
+}
+
+@media (min-width: 320px) {
+  header div nav div a .logo {
+    box-shadow: 0px -1px 61px 19px rgb(32, 35, 52);
+    display: flex;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  header div nav div .header-titulo {
+    margin-left: 20px;
+    animation-name: cambiodecolor;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+    animation-delay: 1s;
+  }
+}
+main section div ul .niño, main section div ul .niña {
+  margin-left: 280px !important;
+  margin-bottom: 300px !important;
+}
+main section div ul .niña {
+  margin-left: 280px !important;
+  margin-bottom: 300px !important;
+}
+
+footer .footer-content {
+  max-width: 600px !important;
+}
+footer .footer-content p span {
+  color: #FCD200;
+}
+footer .footer-links a {
+  color: white;
+  text-decoration: none;
+  margin: 100px;
+}
+footer .footer-links a:hover {
+  text-decoration: underline;
+  color: black;
+}
+footer .footer-wpp .icono-wpp {
+  position: fixed;
+  right: 55px;
+  bottom: 5px;
+  transition: 1s;
+}
+footer .footer-wpp .icono-wpp:hover {
+  transform: rotate(360deg);
+}
+
 * {
   margin: 0%;
   padding: 0%;
 }
 
 main section div ul .niño, main section div ul .niña {
-  margin-left: 350px;
+  margin-left: 300px;
   margin-bottom: 200px;
 }/*# sourceMappingURL=style.css.map */
