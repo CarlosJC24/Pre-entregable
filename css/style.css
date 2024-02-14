@@ -36,6 +36,15 @@ main {
   border-bottom: 1px solid black;
   align-items: center;
 }
+main .descripcion {
+  text-align: center;
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+main .descripcion span {
+  color: #FCD200;
+}
 main section .contenedor-ubicacion {
   margin: 135px;
 }

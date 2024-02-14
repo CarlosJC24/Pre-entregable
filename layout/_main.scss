@@ -1,23 +1,34 @@
+$color:#FCD200;
+
 main{
     justify-content: center;
     display: flex;
     background-color: #2190CB;
     border-bottom: 1px solid black;
     align-items: center;
-    section{
-        .contenedor-ubicacion{
+    .descripcion{
+        text-align: center;
+        margin-top: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        span{
+            color: $color;
+        }
+    }
+        section{
+            .contenedor-ubicacion{
             margin: 135px;
             
-        }
-        .card{
+            }
+            .card{
             padding: 85px;
-        }
-        div{
+            }
+            div{
             .carousel-inner{
                 margin: 40px;
                 padding: 80px;
+                }
             }
         }
-    }
 }
 
